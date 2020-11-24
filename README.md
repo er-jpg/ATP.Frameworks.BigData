@@ -7,15 +7,16 @@ Além de possuir o log de execução com todas as consultas, seguindo a ordem pr
 ## Instruções
 
 ### Requerimentos
-    * NetBeans IDE 8.2 [Link aqui](https://netbeans.org/downloads/old/8.2/)
-    * Apache Maven 3.6.3 [Link aqui](https://maven.apache.org/download.cgi)
-    * Apache Hadoop [Link aqui](https://hadoop.apache.org/releases.html)
+
+- NetBeans IDE 8.2 [Link aqui](https://netbeans.org/downloads/old/8.2/)
+- Apache Maven 3.6.3 [Link aqui](https://maven.apache.org/download.cgi)
+- Apache Hadoop [Link aqui](https://hadoop.apache.org/releases.html)
 
 ### Configurações
 O primeiro ponto é estar certo de que o projeto está usando os pacotes corretamente do maven, que são
-	* `org.apache.spark`
-		1. `spark-core_2.12`, `3.0.0`
-		2. `spark-sql_2.12`, `3.0.0`
+- `org.apache.spark`
+	1. `spark-core_2.12`, `3.0.0`
+	2. `spark-sql_2.12`, `3.0.0`
 
 O segundo passo é ter o Dataset requerido no ambiente do Hadoop, que pode ser alterado na classe `MainSpark`
 dentro da leitura do arquivo, está comentado `Lê o arquivo propriamente dito`.
